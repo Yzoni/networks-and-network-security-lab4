@@ -11,4 +11,4 @@ if __name__ == '__main__':
         edge = pydot.Edge(sorted_nodes.index(e[0]), sorted_nodes.index(e[1]))
         graph.add_edge(edge)
 
-    graph.write_png('example1_graph.png')
+    graph.write_png('yorick-deboer-transform.png')
